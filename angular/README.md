@@ -14,3 +14,7 @@ Hier liegen die Scripts die wir für alles ausserhalb des Containers brauchen.
 ## ressources
 Hier liegen die Dateien, die in das Image müssen.
 
+## Anpassungen wegen rootless Docker
+
+"docker.host" in VSCode settings.json auf den Wert von DOCKER_HOST setzen.
+
